@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flipbook</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Flipbook</h1>
+    <div class="controls">
+      <button id="btn-prev" title="Halaman sebelumnya">&#9664;</button>
+      <span id="page-indicator">1 / 1</span>
+      <button id="btn-next" title="Halaman berikutnya">&#9654;</button>
+      <button id="btn-fullscreen" title="Layar penuh">&#x26F6;</button>
+    </div>
+  </header>
+
+  <main class="stage">
+    <div id="book"></div>
+  </main>
+
+  <p class="hint">Klik / seret sudut halaman, gunakan tombol panah, atau tombol di atas untuk membuka halaman.</p>
+
+  <script src="js/page-flip.browser.js"></script>
+  <script src="js/pages.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
